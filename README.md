@@ -1,3 +1,5 @@
+*Dedicated to my children, today's and future; let The Sun always shine in your eyes.*
+
 # opencode-delete
 
 Delete the current OpenCode session via `/delete`.
