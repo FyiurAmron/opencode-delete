@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "opencode-delete",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Delete the current OpenCode session via /delete",
+  "main": "./index.ts",
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "plugin",
+    "delete"
+  ],
+  "license": "MIT",
+  "files": [
+    "index.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": "./index.ts"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "publishConfig": {
+    "access": "public",
+    "tag": "latest"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@opencode/plugin": "2.0.29",
+    "@types/node": "^24.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^6.0.3"
+  },
+  "peerDependencies": {
+    "@opencode/plugin": ">=2.0.29 <3"
+  }
+}
